@@ -151,3 +151,5 @@ SIMPLE_JWT = {
     "AUTH_HEADER_TYPES": ("Bearer",),
     # "Bearer <Token>"
 }
+
+AUTH_USER_MODEL = "authentication.User"
