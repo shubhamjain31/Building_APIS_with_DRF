@@ -1,0 +1,35 @@
+1) http://127.0.0.1:8000/posts/homepage/ (GET Request)
+
+2) http://127.0.0.1:8000/posts/ (GET Request)
+
+3) http://127.0.0.1:8000/auth/signup/ (POST Request)
+
+{
+  "email": "sj27754@gmail.com",
+  "username": "shubhamcool",
+  "password": "*******"
+}
+
+4) http://127.0.0.1:8000/auth/login/ (POST Request)
+{
+  "email": "sj27754@gmail.com",
+  "password": "demo1234"
+}
+
+5) http://127.0.0.1:8000/posts/ (POST Request)
+{
+  "title": "Python",
+  "content": "This is a programming language."
+}
+
+6) http://127.0.0.1:8000/posts/1/ (PUT Request)
+{
+  "title": "Python",
+  "content": "This is a programming language and a simple language."
+}
+
+6) http://127.0.0.1:8000/posts/1/ (DELETE Request)
+
+7) http://127.0.0.1:8000/posts/current_user/ (GET Request)
+
+8) http://127.0.0.1:8000/posts/posts_for/ (GET Request)
